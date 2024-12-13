@@ -10,9 +10,9 @@ function App() {
   const [stage2, setStage2] = useState([]);
   const [stage3, setStage3] = useState([]);
   const board = [
-    { id: "stage1", label: "Task List 1", stage: stage1, setStage: setStage1 },
-    { id: "stage2", label: "Task List 2", stage: stage2, setStage: setStage2 },
-    { id: "stage3", label: "Task List 3", stage: stage3, setStage: setStage3 },
+    { id: "stage1", label: "Tasks need to do", stage: stage1, setStage: setStage1 },
+    { id: "stage2", label: "In progress", stage: stage2, setStage: setStage2 },
+    { id: "stage3", label: "Tasks Completed", stage: stage3, setStage: setStage3 },
   ];
 
   return (
